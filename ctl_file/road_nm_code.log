@@ -1,0 +1,65 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on 일 10월 13 17:36:46 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   road_nm_code.ctl
+Data File:      C:\Users\kwon2\Desktop\db_source\road_nm_code\road_nm_code.txt
+  Bad File:     road_nm_code.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: ALL
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table ROAD_NM_CODE, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ROAD_NM_CODE                        FIRST     *   |  O(") CHARACTER            
+ROAD_NM                              NEXT     *   |  O(") CHARACTER            
+ROAD_NM_ROM                          NEXT     *   |  O(") CHARACTER            
+UMD_SRI_NUM                          NEXT     *   |  O(") CHARACTER            
+CITY_PROV_NM                         NEXT     *   |  O(") CHARACTER            
+CITY_PROV_NM_ROM                     NEXT     *   |  O(") CHARACTER            
+SGG_NM                               NEXT     *   |  O(") CHARACTER            
+SGG_NM_ROM                           NEXT     *   |  O(") CHARACTER            
+UMD_NM                               NEXT     *   |  O(") CHARACTER            
+UMD_NM_ROM                           NEXT     *   |  O(") CHARACTER            
+UMD_TYPE                             NEXT     *   |  O(") CHARACTER            
+UMD_CODE                             NEXT     *   |  O(") CHARACTER            
+USE_WHET                             NEXT     *   |  O(") CHARACTER            
+CHG_RSN                              NEXT     *   |  O(") CHARACTER            
+CHG_HIST_INFO                        NEXT     *   |  O(") CHARACTER            
+POST_DATE                            NEXT     *   |  O(") CHARACTER            
+EXPR_DATE                            NEXT     *   |  O(") CHARACTER            
+
+value used for ROWS parameter changed from 64 to 58
+
+Table ROAD_NM_CODE:
+  358554 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 254388 bytes(58 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:        358554
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on 일 10월 13 17:36:46 2019
+Run ended on 일 10월 13 17:37:03 2019
+
+Elapsed time was:     00:00:17.17
+CPU time was:         00:00:04.20

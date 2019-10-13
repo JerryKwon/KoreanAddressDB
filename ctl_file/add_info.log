@@ -1,0 +1,139 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on 일 10월 13 18:23:44 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   add_info.ctl
+
+There are 17 data files:
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Busan.txt
+  Bad File:     Busan.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Chungbuk.txt
+  Bad File:     Chungbuk.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Chungnam.txt
+  Bad File:     Chungnam.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Daegu.txt
+  Bad File:     Daegu.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Daejeon.txt
+  Bad File:     Daejeon.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Gangwon.txt
+  Bad File:     Gangwon.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Gwangju.txt
+  Bad File:     Gwangju.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Incheon.txt
+  Bad File:     Incheon.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Jeju.txt
+  Bad File:     Jeju.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Jeonbuk.txt
+  Bad File:     Jeonbuk.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Jeonnam.txt
+  Bad File:     Jeonnam.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Kyeonggi.txt
+  Bad File:     Kyeonggi.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Kyeongbuk.txt
+  Bad File:     Kyeongbuk.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Kyeongnam.txt
+  Bad File:     Kyeongnam.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Sejong.txt
+  Bad File:     Sejong.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Seoul.txt
+  Bad File:     Seoul.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\add_info\Ulsan.txt
+  Bad File:     Ulsan.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: ALL
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table ADD_INFO, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+MAN_NUM                             FIRST     *   |  O(") CHARACTER            
+ADMN_D_CODE                          NEXT     *   |  O(") CHARACTER            
+ADMN_D_NM                            NEXT     *   |  O(") CHARACTER            
+POST_NUM                             NEXT     *   |  O(") CHARACTER            
+POST_NUM_SRI_NUM                     NEXT     *   |  O(") CHARACTER            
+MN_QT_DELI_LOC_NM                    NEXT     *   |  O(") CHARACTER            
+ARCH_TH_LIST_BLDG_NM                 NEXT     *   |  O(") CHARACTER            
+SGG_BLDG_NM                          NEXT     *   |  O(") CHARACTER            
+SHR_HOUZ_WHET                        NEXT     *   |  O(") CHARACTER            
+CHG_RSN_CODE                         NEXT     *   |  O(") CHARACTER            
+
+
+Table ADD_INFO:
+  6282687 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 165120 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:       6282687
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on 일 10월 13 18:23:44 2019
+Run ended on 일 10월 13 18:27:45 2019
+
+Elapsed time was:     00:04:00.83
+CPU time was:         00:00:50.23

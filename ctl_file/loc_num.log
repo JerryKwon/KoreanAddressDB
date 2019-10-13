@@ -1,0 +1,141 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on 일 10월 13 17:55:24 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   loc_num.ctl
+
+There are 17 data files:
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Busan.txt
+  Bad File:     Busan.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Chungbuk.txt
+  Bad File:     Chungbuk.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Chungnam.txt
+  Bad File:     Chungnam.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Daegu.txt
+  Bad File:     Daegu.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Daejeon.txt
+  Bad File:     Daejeon.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Gangwon.txt
+  Bad File:     Gangwon.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Gwangju.txt
+  Bad File:     Gwangju.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Incheon.txt
+  Bad File:     Incheon.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Jeju.txt
+  Bad File:     Jeju.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Jeonbuk.txt
+  Bad File:     Jeonbuk.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Jeonnam.txt
+  Bad File:     Jeonnam.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Kyeonggi.txt
+  Bad File:     Kyeonggi.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Kyeongbuk.txt
+  Bad File:     Kyeongbuk.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Kyeongnam.txt
+  Bad File:     Kyeongnam.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Sejong.txt
+  Bad File:     Sejong.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Seoul.txt
+  Bad File:     Seoul.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+Data File:      C:\Users\kwon2\Desktop\db_source\loc_num\Ulsan.txt
+  Bad File:     Ulsan.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: ALL
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table LOC_NUM, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+MAN_NUM                             FIRST     *   |  O(") CHARACTER            
+SRI_NUM                              NEXT     *   |  O(") CHARACTER            
+LAW_D_CODE                           NEXT     *   |  O(") CHARACTER            
+CITY_PROV_NM                         NEXT     *   |  O(") CHARACTER            
+SGG_NM                               NEXT     *   |  O(") CHARACTER            
+LAW_UMD_NM                           NEXT     *   |  O(") CHARACTER            
+LAW_VIL_NM                           NEXT     *   |  O(") CHARACTER            
+MT_WHET                              NEXT     *   |  O(") CHARACTER            
+LOC_PR_NUM                           NEXT     *   |  O(") CHARACTER            
+LOC_SC_NUM                           NEXT     *   |  O(") CHARACTER            
+REP_WHET                             NEXT     *   |  O(") CHARACTER            
+CHG_RSN_CODE                         NEXT     *   |  O(") CHARACTER            
+
+
+Table LOC_NUM:
+  8236801 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 198144 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:       8236801
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on 일 10월 13 17:55:24 2019
+Run ended on 일 10월 13 18:01:33 2019
+
+Elapsed time was:     00:06:09.60
+CPU time was:         00:01:18.14
